@@ -1,14 +1,5 @@
-# TimeSeries
-Projet de Series Temporelles Ensae, 2ème année.
+# TimeSeries Project - ENSAE Paris - 2nd year
 
-Lien rapport Overleaf : https://www.overleaf.com/6416882955qhjxyqhcrzff
+The purpose of this project is to model and forecast the industrial production index observed in France and available on the INSEE website: (\url{https://www.insee.fr/fr/statistiques?debut=0&categorie=10}). First, we stationarize the chosen series: the electricity trade, by trying several seasonal adjustment methods. Then, we validate our transformations using unit root and stationarity tests. Then, we look for the ARMA model that best matches our transformed series by following the methodology established by Box and Jenkins. We find that our series follows an ARMA(4,4). Finally, we look at the region of confidence that our forecasts verify. 
 
-# À rajouter :
-- Fin de l'introduction 
-- Détailler la théorie des IC (pour les bornes de significativité AR et MA et pour le test d'esperance nulle)
-- Détails spécificité choisie pour les tests KPSS et PP 
-- Détails test KPSS
-- Détails tests PP 
-- Détails MSE 
-- Fin partie II (normalité des résidus ? conclusion)
-- Partie III théorique
+`Report.pdf` contains the report (in French).
